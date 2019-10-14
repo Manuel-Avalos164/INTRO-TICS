@@ -23,11 +23,15 @@
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script src="../../../../global_assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/pickers/daterangepicker.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/datatables_basic.js"></script>
+	<script src="../../../../global_assets/js/demo_pages/dashboard.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -381,9 +385,9 @@
 							</div>
 
 							<div class="media-body">
-								<div class="media-title font-weight-semibold">Victoria Baker</div>
+								<div class="media-title font-weight-semibold">UPV</div>
 								<div class="font-size-xs opacity-50">
-									<i class="icon-pin font-size-sm"></i> &nbsp;Santa Ana, CA
+									<i class="icon-pin font-size-sm"></i> &nbsp;Victoria, Tamp
 								</div>
 							</div>
 
@@ -396,42 +400,26 @@
 				<!-- /user menu -->
 
 
-			
-					
-						<!-- Main navigation -->
-
+				<!-- Main navigation -->
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
 						<!-- Main -->
-
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Widgets</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Menu</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="formulario.html" class="nav-link active">
-								<i class="icon-magazine"></i>
+							<a href="form_inputs.html" class="nav-link active">
+								<i class="icon-home5"></i>
 								<span>
 									Registrar
 								</span>
 							</a>
 						</li>
-						</li>
-
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Menu</div> <i class="icon-menu" title="Main"></i></li>
-						<li class="nav-item">
-							<a href="widgets_eddit.html" class="nav-link active">
-								<i class="icon-magazine"></i>
-								<span>
-									Widgets
-								</span>
-							</a>
-						</li>
-
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-user-tie"></i> <span>Empleados</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_traba.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="trabajadores.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="trabajadores.html" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 						
 							</ul>
@@ -441,7 +429,7 @@
 							<a href="#" class="nav-link"><i class="icon-delicious"></i> <span>Empresas</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_empresa.html" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="form_inputs.html#emp" class="nav-link active">Agregar</a></li>
 								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 
@@ -452,8 +440,8 @@
 							<a href="#" class="nav-link"><i class="icon-home"></i> <span>Departamentos</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_departa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="Departamentos.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="departamentos.html" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
@@ -462,93 +450,11 @@
 							<a href="#" class="nav-link"><i class="icon-airplane2"></i> <span>vacaciones</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_vacaciones.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="vacaciones.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="vacaciones.html" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
-
-			<!--	<div class="card card-sidebar-mobile">
-					<ul class="nav nav-sidebar" data-nav-type="accordion">
-
-			<!--			<!-- Main -->
-			<!--			<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
-						<li class="nav-item">
-							<a href="index.html" class="nav-link">
-								<i class="icon-home4"></i>
-								<span>
-									Dashboard
-									<span class="d-block font-weight-normal opacity-50">No active orders</span>
-								</span>
-							</a>
-						</li>
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-copy"></i> <span>Layouts</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="index.html" class="nav-link active">Default layout</a></li>
-								<li class="nav-item"><a href="../../../../layout_2/LTR/default/full/index.html" class="nav-link">Layout 2</a></li>
-								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Layout 3</a></li>
-								<li class="nav-item"><a href="../../../../layout_4/LTR/default/full/index.html" class="nav-link">Layout 4</a></li>
-								<li class="nav-item"><a href="../../../../layout_5/LTR/default/full/index.html" class="nav-link">Layout 5</a></li>
-								<li class="nav-item"><a href="../../../../layout_6/LTR/default/full/index.html" class="nav-link disabled">Layout 6 <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
-							</ul>
-						</li>
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-color-sampler"></i> <span>Themes</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Themes">
-								<li class="nav-item"><a href="index.html" class="nav-link active">Default</a></li>
-								<li class="nav-item"><a href="../../../LTR/material/full/index.html" class="nav-link">Material</a></li>
-								<li class="nav-item"><a href="../../../LTR/dark/full/index.html" class="nav-link disabled">Dark <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
-								<li class="nav-item"><a href="../../../LTR/clean/full/index.html" class="nav-link disabled">Clean <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
-							</ul>
-						</li>
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-stack"></i> <span>Starter kit</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Starter kit">
-								<li class="nav-item"><a href="../seed/layout_nav_horizontal.html" class="nav-link">Horizontal navigation</a></li>
-								<li class="nav-item"><a href="../seed/sidebar_none.html" class="nav-link">No sidebar</a></li>
-								<li class="nav-item"><a href="../seed/sidebar_main.html" class="nav-link">1 sidebar</a></li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">2 sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_secondary.html" class="nav-link">Secondary sidebar</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_right.html" class="nav-link">Right sidebar</a></li>
-									</ul>
-								</li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">3 sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_right_hidden.html" class="nav-link">Right sidebar hidden</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_right_visible.html" class="nav-link">Right sidebar visible</a></li>
-									</ul>
-								</li>
-								<li class="nav-item nav-item-submenu">
-									<a href="#" class="nav-link">Content sidebars</a>
-									<ul class="nav nav-group-sub">
-										<li class="nav-item"><a href="../seed/sidebar_content_left.html" class="nav-link">Left sidebar</a></li>
-										<li class="nav-item"><a href="../seed/sidebar_content_right.html" class="nav-link">Right sidebar</a></li>
-									</ul>
-								</li>
-								<li class="nav-item"><a href="../seed/layout_boxed.html" class="nav-link">Boxed layout</a></li>
-								<li class="nav-item-divider"></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_main.html" class="nav-link">Fixed main navbar</a></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_secondary.html" class="nav-link">Fixed secondary navbar</a></li>
-								<li class="nav-item"><a href="../seed/navbar_fixed_both.html" class="nav-link">Both navbars fixed</a></li>
-								<li class="nav-item"><a href="../seed/layout_fixed.html" class="nav-link">Fixed layout</a></li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a href="changelog.html" class="nav-link">
-								<i class="icon-list-unordered"></i>
-								<span>Changelog</span>
-								<span class="badge bg-blue-400 align-self-center ml-auto">2.2</span>
-							</a>
-						</li>
-						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>
-						<!-- /main -->
 
 						<!-- Forms -->
 			<!--			<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
@@ -1280,7 +1186,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Historial</span> - Departamental</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Vacaciones</span> -De Trabajadores</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1336,9 +1242,9 @@
 		<div class="content">
 
 				<!-- Datatables - Basic -->
-		<!--		<div class="card">
+				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Trabajadores</h5>
+						<h5 class="card-title">Vacaciones</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1349,31 +1255,45 @@
 					</div>
 
 					<div class="card-body">
-						 <code>Informacion</code>Historia De Trabajadores <strong>Trabajadores De Pemex!!.</strong>
+						 <code>Informacion</code>De <strong>Vacaciones!!.</strong>
 					</div>
 
 					<table class="table datatable-basic">
 						<thead>
 							<tr>
-								<th>Nombre</th>
-								<th>Apellido</th>
-								<th>Ocupacion</th>
-                                <th>Edad</th>
-								<th>Correo Electronico</th>
-								<th>direccion</th>
-								<th>Estado</th>
+							<td>Herramientas</td>
+								<th>Usuario</th>
+								<th>Correo Electonico</th>
+								<th>Origen Del Viaje</th>
+                                <th>Destino Del Viaje</th>
+								<th>Estancia En Dias</th>
+								<th>Estado Del Viaje</th>
 								<th class="text-center">Actions</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
+							<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Manuel</td>
-								<td><a href="#">Avalos</a></td>i
-								<td>Despachador</td>
-								<td>20</td>
-								<td>Manuel@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-success">Active</span></td>
+								<td><a href="#">Manuel@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Cancún</td>
+								<td>8</td>
+								<td><span class="badge badge-success">Salida</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1391,13 +1311,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Jackelyn</td>
-								<td>Gonzalez</td>
-								<td><a href="#">Contador</a></td>
-								<td>20</td>
-								<td>Jacky@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+								<td><a href="#">jackelyn@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Cancún</td>
+								<td>8</td>
+								<td><span class="badge badge-secondary">Regreso</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1415,13 +1349,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Rocio</td>
-								<td>Hernandez</td>
-								<td>Secretaria</td>
-								<td>23</td>
-								<td>Rocio@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+								<td><a href="#">Jocio@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Isla Del Padre</td>
+								<td>8</td>
+								<td><span class="badge badge-danger">Cancelado</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1439,13 +1387,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Axel</td>
-								<td><a href="#">Aleman</a></td>
-								<td>Despachador</td>
-								<td>24</td>
-								<td>Axel@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-info">Pending</span></td>
+								<td><a href="#">Axel@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Guadalajara</td>
+								<td>8</td>
+								<td><span class="badge badge-info">Regreso</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1463,13 +1425,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Brayan</td>
-								<td>Mascorro</td>
-								<td>Despachador</td>
-								<td>20</td>
-								<td>Bryan@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+								<td><a href="#">Brayan@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Cancún</td>
+								<td>8</td>
+								<td><span class="badge badge-secondary">Salida</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1487,13 +1463,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Adolfo</td>
-								<td><a href="#">luna</a></td>
-								<td><a href="#">Supervisor</a></td>
-								<td>22</td>
-								<td>Adolfo@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-info">Pending</span></td>
+								<td><a href="#">Adolfo@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Guanajuato</td>
+								<td>8</td>
+								<td><span class="badge badge-info">Apartado</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1511,13 +1501,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Sylvia</td>
-								<td><a href="#">Sanchez</a></td>
-								<td>Contador</td>
-								<td>30</td>
-								<td>Sylvia@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+								<td><a href="#">Sylvia@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Costa rica</td>
+								<td>8</td>
+								<td><span class="badge badge-danger">Cancelado</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1535,13 +1539,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Esly</td>
-								<td><a href="#">Hernandez</a></td>
-								<td>Contador</td>
-								<td>40</td>
-								<td>Esly@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+								<td><a href="#">Esly@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Poza Rica Veracruz</td>
+								<td>8</td>
+								<td><span class="badge badge-danger">Regreso</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1559,13 +1577,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Danely</td>
-								<td>Vazquez/td>
-								<td>Secetaria</td>
-								<td>25</td>
-								<td>Danely@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-success">Active</span></td>
+								<td><a href="#">Danely@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Cancún</td>
+								<td>8</td>
+								<td><span class="badge badge-success">Salida</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1583,13 +1615,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Ezer</td>
-								<td><a href="#">Gozalez</a></td>
-								<td>Despachador</td>
-								<td>29</td>
-								<td>Ezer@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+								<td><a href="#">Ezer@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>EUA</td>
+								<td>8</td>
+								<td><span class="badge badge-secondary">Suspendido</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1607,13 +1653,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Edgar</td>
-								<td>Zavala</td>
-								<td>Gerente</td>
-								<<td>35</td>
-								<td>Edgar@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-info">Pending</span></td>
+								<td><a href="#">Edgar@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Cancún</td>
+								<td>8</td>
+								<td><span class="badge badge-info">Pendiente</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1631,13 +1691,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Roland</td>
-								<td>Salmos</td>
-								<td>Supervisor<a href="#"></a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
+								<td><a href="#">Roland@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Cd Mexico</td>
+								<td>8</td>
+								<td><span class="badge badge-secondary">Regreso</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1655,13 +1729,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Despachador</td>
-								<td>22</td>
-								<td>coy@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-success">Active</span></td>
+								<td><a href="#">Coy@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Chiapas</td>
+								<td>8</td>
+								<td><span class="badge badge-success">Salida</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1679,13 +1767,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Despedido</td>
-								<td>24</td>
-								<td>Maxwell@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
+								<td><a href="#">Mazwell@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Cancún</td>
+								<td>8</td>
+								<td><span class="badge badge-danger">Suspendido</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1703,13 +1805,27 @@
 								</td>
 							</tr>
 							<tr>
+															<td>
+					               	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
+					         			<i class="icon-pencil7"></i>
+				                		</a>
+					             	<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
+					         			<i class="icon-trash"></i>
+				                		</a>
+								<div class="list-icons">
+									<div class="dropdown">
+						             		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
+
+									<div class="dropdown-menu">
+											<div class="dropdown-header">Options</div>
+										<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
+										<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Sin Ocupacion</a></td>
-								<td>28</td>
-								<td>Cicely@gmail.com</td>
-								<td>Col. Adelitas</td>
-								<td><span class="badge badge-info">Pending</span></td>
+								<td><a href="#">Cicely@gmail.com</a></td>i
+								<td>Cd Victoria</td>
+								<td>Cancún</td>
+								<td>8</td>
+								<td><span class="badge badge-info">Pendiente</span></td>
 								<td class="text-center">
 									<div class="list-icons">
 										<div class="dropdown">
@@ -1732,7 +1848,7 @@
 				<!-- /basic datatable -->
 
 
-				<!-- Pagination types -->
+		<!--		<!-- Pagination types -->
 	<!--	<	<div class="card">
 					<div class="card-header header-elements-inline">
 						<h5 class="card-title">Empresas</h5>
@@ -1892,7 +2008,7 @@
 
 
 				<!-- State saving -->
-				<div class="card">
+			<!--	<div class="card">
 					<div class="card-header header-elements-inline">
 						<h5 class="card-title">Departamentos</h5>
 						<div class="header-elements">
@@ -1903,15 +2019,14 @@
 		                	</div>
 	                	</div>
 					</div>
-	
-			<div class="card-body">
+
+					<div class="card-body">
 					Ubicacion de Edificios Por Estacion
 					</div>
 
-			        <table class="table datatable-basic">
-				         <thead>
-							    <tr>
-								<td>Herramientas</td>
+					<table class="table datatable-save-state">
+						<thead>
+							<tr>
 								<th>Nombre</th>
 								<th>Clave</th>
 								<th>Descripcion</th>
@@ -1920,21 +2035,6 @@
 						</thead>
 						<tbody>
 							<tr>
-									<td>
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
-					                			<i class="icon-pencil7"></i>
-				                			</a>
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
-					                			<i class="icon-trash"></i>
-				                			</a>
-										<div class="list-icons">
-											<div class="dropdown">
-						                		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
-
-												<div class="dropdown-menu">
-													<div class="dropdown-header">Options</div>
-													<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
-													<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
 								<td>Oficina A</td>
 								<td><a href="#">403</a></td>
 								<td>Contabiduria</td>
@@ -1955,26 +2055,6 @@
 								</td>
 							</tr>
 							<tr>
-									<td>
-										<div class="list-icons">
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
-					                			<i class="icon-pencil7"></i>
-				                			</a>
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
-					                			<i class="icon-trash"></i>
-				                			</a>
-										<div class="list-icons">
-											<div class="dropdown">
-						                		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
-
-												<div class="dropdown-menu">
-													<div class="dropdown-header">Options</div>
-													<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
-													<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
-				                			</a>
-					                	</div>
-									</td>
-
 								<td>Oficina B</td>
 								<td>4002</td>
 								<td><a href="#">Gerencia</a></td>
@@ -1995,26 +2075,6 @@
 								</td>
 							</tr>
 							<tr>
-									<td>
-										<div class="list-icons">
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
-					                			<i class="icon-pencil7"></i>
-				                			</a>
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
-					                			<i class="icon-trash"></i>
-				                			</a>
-				                			</a>
-										<div class="list-icons">
-											<div class="dropdown">
-						                		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
-
-												<div class="dropdown-menu">
-													<div class="dropdown-header">Options</div>
-													<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
-													<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
-				                			</a>
-					                	</div>
-									</td>
 								<td>Oficina C</td>
 								<td>400</td>
 								<td>Area De Descanso</td>
@@ -2035,26 +2095,6 @@
 								</td>
 							</tr>
 							<tr>
-									<td>
-										<div class="list-icons">
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
-					                			<i class="icon-pencil7"></i>
-				                			</a>
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
-					                			<i class="icon-trash"></i>
-				                			</a>
-				                			</a>
-										<div class="list-icons">
-											<div class="dropdown">
-						                		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
-
-												<div class="dropdown-menu">
-													<div class="dropdown-header">Options</div>
-													<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
-													<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
-				                			</a>
-					                	</div>
-									</td>
 								<td>Baños</td>
 								<td><a href="#">4003</a></td>
 								<td>Baños P/hombres</td>
@@ -2075,27 +2115,7 @@
 								</td>
 							</tr>
 							<tr>
-									<td>
-										<div class="list-icons">
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#modal_remote">
-					                			<i class="icon-pencil7"></i>
-				                			</a>
-					                		<a href="#" class="list-icons-item" data-toggle="modal" data-target="#remove_modal">
-					                			<i class="icon-trash"></i>
-				                			</a>
-				                			</a>
-										<div class="list-icons">
-											<div class="dropdown">
-						                		<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs"></i></a>
-
-												<div class="dropdown-menu">
-													<div class="dropdown-header">Options</div>
-													<a href="#" class="dropdown-item"><i class="icon-pencil7"></i>Edit entry</a>
-													<a href="#" class="dropdown-item"><i class="icon-bin"></i>Remove entry</a>
-				                			</a>
-					                	</div>
-									</td>
-					          <td>Baños</td>
+								<td>Baños</td>
 								<td><a href="#">4002</a></td>
 								<td><a href="#">Baños P/ Mujeres</a></td>
 								<td class="text-center">
@@ -2124,19 +2144,19 @@
 
 
 			<!-- Footer -->
-			<div class="navbar navbar-expand-lg navbar-light">
+		<div class="navbar navbar-expand-lg navbar-light">
 				<div class="text-center d-lg-none w-100">
 					<button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
 						<i class="icon-unfold mr-2"></i>
 						Footer
 					</button>
 				</div>
-					
+
 				<div class="navbar-collapse collapse" id="navbar-footer">
 					<span class="navbar-text">
 						&copy; 2015 - 2018. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
 					</span>
-					
+
 					<ul class="navbar-nav ml-lg-auto">
 						<li class="nav-item"><a href="https://kopyov.ticksy.com/" class="navbar-nav-link" target="_blank"><i class="icon-lifebuoy mr-2"></i> Support</a></li>
 						<li class="nav-item"><a href="http://demo.interface.club/limitless/docs/" class="navbar-nav-link" target="_blank"><i class="icon-file-text2 mr-2"></i> Docs</a></li>
@@ -2144,7 +2164,7 @@
 					</ul>
 				</div>
 			</div>
-							<div id="remove_modal" class="modal fade" role="dialog">
+										<div id="remove_modal" class="modal fade" role="dialog">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
@@ -2208,7 +2228,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- /remote source -->
 			<!-- /footer -->
 
 		</div>
