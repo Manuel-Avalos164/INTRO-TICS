@@ -399,21 +399,34 @@
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
-						<!-- Main -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Menu</div> <i class="icon-menu" title="Main"></i></li>
+								<!-- Main -->
+
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Widgets</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="form_inputs.html" class="nav-link active">
+							<a href="formulario.html" class="nav-link active">
 								<i class="icon-magazine"></i>
 								<span>
 									Registrar
 								</span>
 							</a>
 						</li>
+						</li>
+
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Menu</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item">
+							<a href="widgets_eddit.html" class="nav-link active">
+								<i class="icon-toggle"></i>
+								<span>
+									Widgets
+								</span>
+							</a>
+						</li>
+
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-user-tie"></i> <span>Empleados</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_inputs.html" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="form_traba.html" class="nav-link active">Agregar</a></li>
 								<li class="nav-item"><a href="trabajadores.html" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 						
@@ -425,7 +438,7 @@
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
 								<li class="nav-item"><a href="form_empresa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="empresas.html" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 
 							</ul>
@@ -450,7 +463,6 @@
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
-
 				<!--
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
@@ -1407,58 +1419,6 @@
 									<div class="col-lg-10">
 										<textarea rows="3" cols="3" class="form-control" placeholder="Experecias Obtenidas"></textarea>
 									</div>
-								</div>
-			
-						<form action="#">
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Registro De Departamento</legend>
-								<a name="depa"> departamentos</a>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Direccion</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" id="clickable-label" placeholder="Ciudad,Colonia,Calle,N° De Casa">
-								     </div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Descripcion</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" maxlength="4" placeholder="Descripcion">
-									</div>
-								</div>
-
-						<form action="#">
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Registro De Empresa </legend>
-								<a name="emp"> Empresa</a>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control">
-									</div>
-								</div>
-
-							<div class="form-group row">
-									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Direccion</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" id="clickable-label" placeholder="Ciudad,Colonia,Calle,N° De Casa">
-								     </div>
-								</div>
-
-					<div class="form-group row">
-									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Clave</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" id="clickable-label" placeholder="Ingrese La Clave">
-								     </div>
 								</div>
 
 				<div class="breadcrumb-line breadcrumb-line-left header-elements-md-inline">
