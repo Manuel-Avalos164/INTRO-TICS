@@ -399,7 +399,7 @@
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
-								<!-- Main -->
+						<!-- Main -->
 
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Widgets</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
@@ -415,13 +415,14 @@
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Menu</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
 							<a href="widgets_eddit.html" class="nav-link active">
-								<i class="icon-toggle"></i>
+								<i class="icon-lan2"></i>
 								<span>
 									Widgets
 								</span>
 							</a>
 						</li>
-
+                       
+                        <!-- main -->
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-user-tie"></i> <span>Empleados</span></a>
 
@@ -438,7 +439,7 @@
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
 								<li class="nav-item"><a href="form_empresa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="empresas.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 
 							</ul>
@@ -463,6 +464,15 @@
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
+
+					<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-bus"></i> <span>Pago De Transporte</span></a>
+
+							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
+								<li class="nav-item"><a href="pagos.html" class="nav-link active">tramitar Boleto</a></li>
+							</ul>
+						</li>
+
 				<!--
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
@@ -1365,12 +1375,18 @@
 									</div>
 								</div>
 
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Carrera</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" placeholder="Carrera en curso">
+								<div class="form-group">
+										<label class="col-form-label col-lg-2">Carreras</label>
+										<select name="combo">
+											<optgroup label="Carreras">
+												<option value="ID">ITI</option>
+												<option value="AZ">ISA</option>
+												<option value="CO">IM</option>
+												<option value="ID">ITM</option>
+												<option value="WY">LAYGE</option>
+											</optgroup>
+										</select>
 									</div>
-								</div>
 
 								<div class="form-group row">
 									<label class="col-form-label col-lg-2">Fecha</label>
@@ -1379,18 +1395,29 @@
 									</div>
 								</div>
 
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Ruta</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" placeholder="Ruta: Colonia, Calle,">
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">horario</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" placeholder="Matutino, Vespertino">
-									</div>
-								</div>
+								<div class="form-group">
+										<label class="col-form-label col-lg-2">Rutas</label>
+										<select name="combo">
+											<optgroup label="Rutas">
+												<option value="ID">Adelitas</option>
+												<option value="AZ">Libramiento</option>
+												<option value="CO">Bulevard</option>
+												<option value="ID">Coca-Cola</option>
+												<option value="WY">Estrella</option>
+												<option value="WY">Monte Alto</option>
+											</optgroup>
+										</select>
+									</div> 
+
+								<div class="form-group">
+										<label class="col-form-label col-lg-2">Rutas</label>
+										<select name="combo">
+											<optgroup label="Rutas">
+												<option value="ID">Matutino</option>
+												<option value="AZ">Vespertino</option>
+											</optgroup>
+										</select>
+									</div> 
 
 								
 				<div class="breadcrumb-line breadcrumb-line-left header-elements-md-inline">
