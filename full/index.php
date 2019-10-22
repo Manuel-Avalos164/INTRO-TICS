@@ -8,7 +8,7 @@
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
@@ -17,21 +17,21 @@
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script src="../../../../global_assets/js/main/jquery.min.js"></script>
-	<script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/visualization/d3/d3.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-	<script src="../../../../global_assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/daterangepicker.js"></script>
+	<script src="global_assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script src="global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script src="global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script src="global_assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script src="global_assets/js/plugins/pickers/daterangepicker.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/dashboard.js"></script>
+	<script src="global_assets/js/demo_pages/dashboard.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -41,7 +41,7 @@
 	<div class="navbar navbar-expand-md navbar-dark">
 		<div class="navbar-brand">
 			<a href="index.html" class="d-inline-block">
-				<img src="../../../../global_assets/images/logo_light.png" alt="">
+				<img src="global_assets/images/logo_light.png" alt="">
 			</a>
 		</div>
 
@@ -164,7 +164,7 @@
 							<ul class="media-list">
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Jordana Ansley</a>
@@ -175,7 +175,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Will Brason</a>
@@ -186,7 +186,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Hanna Walden</a>
@@ -197,7 +197,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Dori Laperriere</a>
@@ -208,7 +208,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<a href="#" class="media-title font-weight-semibold">Vanessa Aurelius</a>
@@ -243,7 +243,7 @@
 							<ul class="media-list">
 								<li class="media">
 									<div class="mr-3 position-relative">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 
 									<div class="media-body">
@@ -260,7 +260,7 @@
 
 								<li class="media">
 									<div class="mr-3 position-relative">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 
 									<div class="media-body">
@@ -277,7 +277,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -293,7 +293,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -309,7 +309,7 @@
 
 								<li class="media">
 									<div class="mr-3">
-										<img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+										<img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
 									</div>
 									<div class="media-body">
 										<div class="media-title">
@@ -333,7 +333,7 @@
 
 				<li class="nav-item dropdown dropdown-user">
 					<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
-						<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+						<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
 						<span>Victoria</span>
 					</a>
 
@@ -380,7 +380,7 @@
 					<div class="card-body">
 						<div class="media">
 							<div class="mr-3">
-								<a href="#"><img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
+								<a href="#"><img src="global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
 							</div>
 
 							<div class="media-body">
@@ -436,9 +436,9 @@
 							<a href="#" class="nav-link"><i class="icon-user-tie"></i> <span>Empleados</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_traba.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="trabajadores.html" class="nav-link">Enlistar</a></li>
-								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_traba.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/trabajadores.php" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 						
 							</ul>
 						</li>
@@ -447,9 +447,9 @@
 							<a href="#" class="nav-link"><i class="icon-delicious"></i> <span>Empresas</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_empresa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="empresas.html" class="nav-link">Enlistar</a></li>
-								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_empresa.php>" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/empresas.php" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 
 							</ul>
 						</li>
@@ -458,9 +458,9 @@
 							<a href="#" class="nav-link"><i class="icon-home"></i> <span>Departamentos</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_departa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="Departamentos.html" class="nav-link">Enlistar</a></li>
-								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_departa.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/Departamentos.php" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
 
@@ -468,9 +468,9 @@
 							<a href="#" class="nav-link"><i class="icon-airplane2"></i> <span>vacaciones</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_vacaciones.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="vacaciones.html" class="nav-link">Enlistar</a></li>
-								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_vacaciones.php>" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/vacaciones.php" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
                         <!-- Main -->
@@ -1503,7 +1503,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/brands/facebook.png" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/brands/facebook.png" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -1539,7 +1539,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/brands/youtube.png" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/brands/youtube.png" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -1575,7 +1575,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/brands/spotify.png" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/brands/spotify.png" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -1611,7 +1611,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/brands/twitter.png" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/brands/twitter.png" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -1654,7 +1654,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/brands/bing.png" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/brands/bing.png" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -1690,7 +1690,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/brands/amazon.png" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/brands/amazon.png" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -1726,7 +1726,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/brands/dribbble.png" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/brands/dribbble.png" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -1961,7 +1961,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -2165,7 +2165,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -2211,7 +2211,7 @@
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
 														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
+															<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
 														</a>
 													</div>
 													<div>
@@ -2307,7 +2307,7 @@
 				        					<div class="mr-sm-3 mb-2 mb-sm-0">
 												<div class="card-img-actions">
 													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
+														<img src="global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
 														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
 													</a>
 												</div>
@@ -2326,7 +2326,7 @@
 				        					<div class="mr-sm-3 mb-2 mb-sm-0">
 												<div class="card-img-actions">
 													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
+														<img src="global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
 														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
 													</a>
 												</div>
@@ -2347,7 +2347,7 @@
 				        					<div class="mr-sm-3 mb-2 mb-sm-0">
 												<div class="card-img-actions">
 													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
+														<img src="global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
 														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
 													</a>
 												</div>
@@ -2366,7 +2366,7 @@
 				        					<div class="mr-sm-3 mb-2 mb-sm-0">
 												<div class="card-img-actions">
 													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
+														<img src="global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
 														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
 													</a>
 												</div>
@@ -2659,7 +2659,7 @@
 									<ul class="media-list">
 										<li class="media">
 											<div class="mr-3 position-relative">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 												<span class="badge bg-danger-400 badge-pill badge-float border-2 border-white">8</span>
 											</div>
 
@@ -2675,7 +2675,7 @@
 
 										<li class="media">
 											<div class="mr-3 position-relative">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 												<span class="badge bg-danger-400 badge-pill badge-float border-2 border-white">6</span>
 											</div>
 
@@ -2691,7 +2691,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2706,7 +2706,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2721,7 +2721,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">												
@@ -2740,7 +2740,7 @@
 									<ul class="media-list">
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2755,7 +2755,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2770,7 +2770,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2785,7 +2785,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2800,7 +2800,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2819,7 +2819,7 @@
 									<ul class="media-list">
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2834,7 +2834,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2849,7 +2849,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2864,7 +2864,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
@@ -2879,7 +2879,7 @@
 
 										<li class="media">
 											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
+												<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
 											</div>
 
 											<div class="media-body">
