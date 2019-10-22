@@ -396,11 +396,11 @@
 				<!-- /user menu -->
 
 
-				<!-- Main navigation -->
+<!-- Main navigation -->
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
-						<!-- Main -->
+												<!-- Main -->
 
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Widgets</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
@@ -416,7 +416,7 @@
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Menu</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
 							<a href="widgets_eddit.html" class="nav-link active">
-								<i class="icon-magazine"></i>
+								<i class="icon-toggle"></i>
 								<span>
 									Widgets
 								</span>
@@ -427,8 +427,8 @@
 							<a href="#" class="nav-link"><i class="icon-user-tie"></i> <span>Empleados</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_traba.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="trabajadores.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_traba.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/trabajadores.php" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 						
 							</ul>
@@ -438,8 +438,8 @@
 							<a href="#" class="nav-link"><i class="icon-delicious"></i> <span>Empresas</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_empresa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_empresa.php>" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/empresas.php" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 
 							</ul>
@@ -449,8 +449,8 @@
 							<a href="#" class="nav-link"><i class="icon-home"></i> <span>Departamentos</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_departa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="Departamentos.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_departa.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/Departamentos.php" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
@@ -459,8 +459,8 @@
 							<a href="#" class="nav-link"><i class="icon-airplane2"></i> <span>vacaciones</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_vacaciones.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="vacaciones.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_vacaciones.php>" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/vacaciones.php" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>

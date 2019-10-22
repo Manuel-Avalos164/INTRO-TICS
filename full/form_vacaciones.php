@@ -395,7 +395,7 @@
 				<!-- /user menu -->
 
 
-								<!-- Main navigation -->
+					<!-- Main navigation -->
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
@@ -426,8 +426,8 @@
 							<a href="#" class="nav-link"><i class="icon-user-tie"></i> <span>Empleados</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_traba.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="trabajadores.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_traba.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/trabajadores.php" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 						
 							</ul>
@@ -437,8 +437,8 @@
 							<a href="#" class="nav-link"><i class="icon-delicious"></i> <span>Empresas</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_empresa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="empresas.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_empresa.php>" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/empresas.php" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 
 							</ul>
@@ -448,8 +448,8 @@
 							<a href="#" class="nav-link"><i class="icon-home"></i> <span>Departamentos</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_departa.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="Departamentos.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_departa.php" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/Departamentos.php" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
@@ -458,12 +458,11 @@
 							<a href="#" class="nav-link"><i class="icon-airplane2"></i> <span>vacaciones</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="form_vacaciones.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="vacaciones.html" class="nav-link">Enlistar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/form_vacaciones.php>" class="nav-link active">Agregar</a></li>
+								<li class="nav-item"><a href="/intoTics/full/vacaciones.php" class="nav-link">Enlistar</a></li>
 								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Editar</a></li>
 							</ul>
 						</li>
-
 				<!--
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
@@ -1346,45 +1345,104 @@
 					</div>
 
 					<div class="card-body">
-						<p class="mb-4">Informacion Del Trabajardor
+						<p class="mb-4">Separa Tus Vacaciones!!..
 						<form action="#">
 							<fieldset class="mb-3">
 								<legend class="text-uppercase font-size-sm font-weight-bold">Rellenar</legend>
-								<a name="traba"> trabajadores</a>
+								<a name="traba"> Vacaciones</a>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre De la Empresa</label>
+									<label class="col-form-label col-lg-2">Usuario</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Dueño</label>
+									<label class="col-form-label col-lg-2">Origen</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">RFC DEl Dueño</label>
-									<div class="col-lg-10">
-										<input type="text" class="form-control" placeholder="RFC...">
-									</div>
-								</div>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Clave De La Empresa</label>
+									<label class="col-form-label col-lg-2">Destino</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control">
 									</div>
 								</div>
 
 								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Ubicacion</label>
+									<label class="col-form-label col-lg-2">Correo Electonico</label>
 									<div class="col-lg-10">
-									<input type="text" class="form-control" id="clickable-label" placeholder="Ciudad,Colonia,Calle">
+										<input type="text" class="form-control" placeholder="@gmail.com">
 									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Estancia En Dias</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" maxlength="4" placeholder="Separa Tus Dias">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Acción Del Viaje</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="clickable-label" placeholder="Acción">
+									</div>
+								</div>
+			
+				<!--		<form action="#">
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Registro De Departamento</legend>
+								<a name="depa"> departamentos</a>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Nombre</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Direccion</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="clickable-label" placeholder="Ciudad,Colonia,Calle,N° De Casa">
+								     </div>
+								</div>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Descripcion</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" maxlength="4" placeholder="Descripcion">
+									</div>
+								</div>
+
+						<form action="#">
+							<fieldset class="mb-3">
+								<legend class="text-uppercase font-size-sm font-weight-bold">Registro De Empresa </legend>
+								<a name="emp"> Empresa</a>
+
+								<div class="form-group row">
+									<label class="col-form-label col-lg-2">Nombre</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+							<div class="form-group row">
+									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Direccion</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="clickable-label" placeholder="Ciudad,Colonia,Calle,N° De Casa">
+								     </div>
+								</div>
+
+					<div class="form-group row">
+									<label class="col-form-label col-lg-2 cursor-pointer" for="clickable-label">Clave</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="clickable-label" placeholder="Ingrese La Clave">
+								     </div>
 								</div>
 
 				<div class="breadcrumb-line breadcrumb-line-left header-elements-md-inline">
